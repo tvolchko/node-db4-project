@@ -22,7 +22,7 @@ The requirements for the system as stated by the client are:
 #### Data Model
 
 After brainstorming with the team it is suggested that a **JSON representation** of a recipe _could_ look like the following:
-
+recipe_id, recipe_name, step_number, instructions, step_id, ingredient_name 
 ```json
 {
   "recipe_id" : 1,
